@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admisiones</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #004b23;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+        }
+        .admisiones-container {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 2rem;
+            background: linear-gradient(135deg, #d4f4dd, #a8e6cf);
+            border-radius: 10px;
+            margin: 2rem;
+        }
+        .info-admisiones, .video-container {
+            width: 45%;
+        }
+        .info-admisiones h2, .video-container h2 {
+            color: #004b23;
+            text-align: center;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            background: #004b23;
+            color: white;
+            padding: 10px;
+            margin: 5px 0;
+            border-radius: 5px;
+            text-align: center;
+        }
+        iframe {
+            width: 100%;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Admisiones, Registro y Control</h1>
+    </header>
+    <main>
+        <section class="admisiones-container">
+            <div class="info-admisiones">
+                <h2>Aspirantes Pregrado</h2>
+                <ul>
+                    <li>Inscripciones</li>
+                    <li>Admitidos</li>
+                    <li>Calendario Académico</li>
+                    <li>Casos Especiales</li>
+                    <li>Circular - Legalización de Matrícula</li>
+                    <li>Normatividad</li>
+                    <li>Oferta Académica</li>
+                    <li>Puntajes de Referencias</li>
+                    <li>Simulador Promedio</li>
+                    <li>Transferencias Externas</li>
+                </ul>
+            </div>
+            <div class="video-container">
+                <h2>Proceso de carnetización digital</h2>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

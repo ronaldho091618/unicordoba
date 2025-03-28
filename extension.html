@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extensión - Unicórdoba</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #2a7d2e;
+            color: white;
+            padding: 15px;
+        }
+        .hero {
+            position: relative;
+            text-align: center;
+            color: white;
+        }
+        .hero img {
+            width: 100%;
+            height: auto;
+            opacity: 0.8;
+        }
+        .hero-text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 2em;
+            background: rgba(0, 0, 0, 0.6);
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .stats {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            padding: 20px;
+        }
+        .stat-box {
+            background: #333;
+            color: #6c3;
+            padding: 20px;
+            margin: 10px;
+            border-radius: 10px;
+            width: 200px;
+            text-align: center;
+            box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+        }
+        .stat-box h3 {
+            font-size: 2em;
+        }
+        .stat-box i {
+            font-size: 3em;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Extensión</h1>
+    </header>
+    <section class="hero">
+        <img src="extension-background.jpg" alt="Extensión">
+        <div class="hero-text">
+            <h2>Extensión</h2>
+        </div>
+    </section>
+    <section class="stats">
+        <div class="stat-box">
+            <i class="fas fa-cogs"></i>
+            <h3>040</h3>
+            <p>Proyectos en Ejecución</p>
+        </div>
+        <div class="stat-box">
+            <i class="fas fa-graduation-cap"></i>
+            <h3>0113</h3>
+            <p>Estudiantes Vinculados</p>
+        </div>
+        <div class="stat-box">
+            <i class="fas fa-chalkboard-teacher"></i>
+            <h3>080</h3>
+            <p>Profesores Participantes</p>
+        </div>
+        <div class="stat-box">
+            <i class="fas fa-users"></i>
+            <h3>1450</h3>
+            <p>Personas Beneficiadas</p>
+        </div>
+    </section>
+</body>
+</html>

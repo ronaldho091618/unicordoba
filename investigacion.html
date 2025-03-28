@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Investigación | Universidad de Córdoba</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+        header {
+            background: #00471b;
+            padding: 15px 0;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        .active {
+            font-weight: bold;
+            text-decoration: underline;
+        }
+        .hero {
+            background: url('investigacion.jpg') no-repeat center center/cover;
+            height: 300px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 36px;
+            font-weight: bold;
+            text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+        }
+        .stats {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 50px 20px;
+        }
+        .stat-card {
+            background: #222;
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            width: 200px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            transition: transform 0.3s ease-in-out;
+        }
+        .stat-card:hover {
+            transform: scale(1.1);
+        }
+        .stat-card i {
+            font-size: 40px;
+            margin-bottom: 10px;
+            color: #7ED957;
+        }
+        .stat-card h2 {
+            font-size: 28px;
+            margin: 10px 0;
+        }
+        .stat-card p {
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">INSTITUCIONAL</a></li>
+                <li><a href="academia.html">ACADEMIA</a></li>
+                <li><a href="investigacion.html" class="active">INVESTIGACIÓN</a></li>
+                <li><a href="extension.html">EXTENSIÓN</a></li>
+                <li><a href="admisiones.html">ADMISIONES</a></li>
+                <li><a href="internacionalizacion.html">INTERNACIONALIZACIÓN</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="hero">
+        <h1>Investigación</h1>
+    </section>
+    <section class="stats">
+        <div class="stat-card">
+            <i class="fas fa-user-graduate"></i>
+            <h2>202</h2>
+            <p>Investigador Emérito</p>
+        </div>
+        <div class="stat-card">
+            <i class="fas fa-cogs"></i>
+            <h2>2031</h2>
+            <p>Investigador Sénior</p>
+        </div>
+        <div class="stat-card">
+            <i class="fas fa-user-edit"></i>
+            <h2>2053</h2>
+            <p>Investigador Asociado</p>
+        </div>
+        <div class="stat-card">
+            <i class="fas fa-user-check"></i>
+            <h2>2079</h2>
+            <p>Investigador Junior</p>
+        </div>
+    </section>
+</body>
+</html>
